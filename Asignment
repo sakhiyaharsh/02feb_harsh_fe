@@ -83,56 +83,45 @@ characters with special meaning in HTML (e.g. <and &), characters from non-Engli
     with HTML syntax and to ensure that special characters are displayed
     correctly in the final output.
 ============================================================================================================
-    Q-5.What are different types of lists in HTML?
-    Ans.There are two main types of lists in HTML: ordered lists and unordered
-    lists.
-
-    1.Ordered Lists: An ordered list is a list of items that are numbered in a
-    specific order. The list is defined using the <ol> tag, and each list item
-        is defined using the <li> tag. For example:
+Q-5.What are different types of lists in HTML?
+Ans.There are two main types of lists in HTML: ordered lists and unordered
+lists.
+1.Ordered Lists: An ordered list is a list of items that are numbered in a
+specific order. The list is defined using the <ol> tag, and each list item
+ is defined using the <li> tag. For example:
             <ol>
                 <li>First item</li>
                 <li>Second item</li>
                 <li>Third item</li>
             </ol>
-            2.Unordered Lists: An unordered list is a list of items that are
-            represented by bullet points rather than numbers. The list is
-            defined using the <ul> tag, and each list item is defined using the
-                <li> tag. For example:
-                    <ul>
-                        <li>First item</li>
-                        <li>Second item</li>
-                        <li>Third item</li>
-                    </ul>
-                    There is also another type of list called the definition
-                    list, which is used to define terms and their corresponding
-                    definitions. The definition list is defined using the <dl>
-                        tag, terms are defined using the <dt> tag, and
-                            definitions are defined using the
-                        <dd> tag. For
-                            example:
-                            <dl>
-                                <dt>Term 1</dt>
-                                <dd>Definition 1</dd>
-                                <dt>Term 2</dt>
-                                <dd>Definition 2</dd>
-                                <dt>Term 3</dt>
-                                <dd>Definition 3</dd>
-                            </dl>
+2.Unordered Lists: An unordered list is a list of items that are
+ represented by bullet points rather than numbers. The list is
+ defined using the <ul> tag, and each list item is defined using the
+    <li> tag. For example:
+       <ul>
+           <li>First item</li>
+           <li>Second item</li>
+           <li>Third item</li>
+       </ul>
+There is also another type of list called the definitionlist, which is used to define terms and their corresponding
+definitions. The definition list is defined using the <dl>tag, terms are defined using the <dt> tag, and
+definitions are defined using the <dd> tag. For
+example:
+        <dl>
+             <dt>Term 1</dt>
+                 <dd>Definition 1</dd>
+                 <dt>Term 2</dt>
+                 <dd>Definition 2</dd>
+                 <dt>Term 3</dt>
+                 <dd>Definition 3</dd>
+         </dl>
 ==============================================================================================================
-                            Q-6.What is the ‘class’ attribute in HTML?
-                            Ans. The 'class' attribute in HTML is used to
-                            define a specific
-                            style for one or multiple elements in a web
-                            page. It allowsyou to assign a specific
-                            class name to an HTMLelement, and
-                            then using CSS, you can apply styles to elements
-                            with thesame class name.
-                            For example, you could assign a class name of
-                            "header" to an
-                            HTML header element like this:
-
-                            <header class="header">
+Q-6.What is the ‘class’ attribute in HTML?
+Ans. The 'class' attribute in HTML is used to define a specific style for one or multiple elements in a web
+page. It allowsyou to assign a specific class name to an HTMLelement, and then using CSS, you can apply styles to elements
+with thesame class name. For example, you could assign a class name of
+"header" to an HTML header element like this:
+    <header class="header">
                                 <h1>This is a header</h1>
                             </header>
                             And then in your CSS file, you could define
@@ -197,54 +186,44 @@ characters with special meaning in HTML (e.g. <and &), characters from non-Engli
                             class attribute is used to select multiple
                             elements and apply the same style to them.
 ==================================================================================================================
-                            Q-8.What are the various formatting tags in HTML?
-                            Ans.HTML provides various tags for formatting text and other content on a web page. Some of
-                            the most commonly used formatting tags are:
+Q-8.What are the various formatting tags in HTML?
+Ans.HTML provides various tags for formatting text and other content on a web page. Some of
+the most commonly used formatting tags are:
 
-                            1.<p>: The
-                            <p> tag is used to create a paragraph of text.
+1.<p>: The <p> tag is used to create a paragraph of text.
 
-                                2.<br>: The <br> tag is used to insert a line break.
+2.<br>: The <br> tag is used to insert a line break.
 
-                                3.
-                                <hr>: The
-                                <hr> tag is used to insert a horizontal rule, or a horizontal line, to divide
-                                content into sections.
+3.<hr>: The <hr> tag is used to insert a horizontal rule, or a horizontal line, to dividecontent into sections.
 
-                                4.
-                            <pre>: The <pre> tag is used to display preformatted text, preserving white spaces and
-        line breaks.
+4.<pre>: The <pre> tag is used to display preformatted text, preserving white spaces and line breaks.
 
-    5.<strong>: The <strong> tag is used to make text bold.
+5.<strong>: The <strong> tag is used to make text bold.
 
-    6.<em>: The <em> tag is used to emphasize text, typically rendering it in italics.
+6.<em>: The <em> tag is used to emphasize text, typically rendering it in italics.
 
-    7.<sup>: The <sup> tag is used to create superscript text, such as exponents or footnotes.
+7.<sup>: The <sup> tag is used to create superscript text, such as exponents or footnotes.
 
-    8.<sub>: The <sub> tag is used to create subscript text, such as chemical formulas.
+8.<sub>: The <sub> tag is used to create subscript text, such as chemical formulas.
 
-    9.<ul>: The <ul> tag is used to create an unordered list, with each item in the list 
-        represented by a bullet point.
+9.<ul>: The <ul> tag is used to create an unordered list, with each item in the list represented by a bullet point.
 
-    10.<ol>: The <ol> tag is used to create an ordered list, with each item in the list 
-        represented by a number.
+10.<ol>: The <ol> tag is used to create an ordered list, with each item in the list represented by a number.
 
-    11.<li>: The <li> tag is used to create a list item, which is used inside <ul> and <ol> 
-        tags.
+11.<li>: The <li> tag is used to create a list item, which is used inside <ul> and <ol> tags.
 
-    12.<blockquote>: The <blockquote> tag is used to create a block quote, typically used to 
-        format quotes from other sources.
+12.<blockquote>: The <blockquote> tag is used to create a block quote, typically used to 
+format quotes from other sources.
 
-    13.<cite>: The <cite> tag is used to cite a reference, such as the title of a book or the
-         name of an author.
+13.<cite>: The <cite> tag is used to cite a reference, such as the title of a book or the
+name of an author.
 
-    14.<abbr>: The <abbr> tag is used to create an abbreviation or an acronym.
+14.<abbr>: The <abbr> tag is used to create an abbreviation or an acronym.
+15.<address>: The <address> tag is used to create an address, such as the contact 
+information for a person or an organization.
 
-    15.<address>: The <address> tag is used to create an address, such as the contact 
-        information for a person or an organization.
-
-    These are just a few examples of the many formatting tags available in HTML. By using these
-    tags, you can control the appearance of text and other content on a web page, making it easier to create clear, well-organized, and attractive pages.
+These are just a few examples of the many formatting tags available in HTML. By using these
+tags, you can control the appearance of text and other content on a web page, making it easier to create clear, well-organized, and attractive pages.
 ===========================================================================================================================
 Q-9.How is Cell Padding different from Cell Spacing?
 Ans.Cell padding and cell spacing are both attributes of HTML tables, but they have different functions.
