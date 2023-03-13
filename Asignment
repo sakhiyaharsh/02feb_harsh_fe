@@ -460,3 +460,11 @@ Ans.HTML (Hypertext Markup Language) and XHTML (Extensible Hypertext Markup Lang
 
     In summary, the key differences between HTML and XHTML are in their syntax and how they are parsed. HTML has a more flexible syntax that allows for errors and omissions, while XHTML has a more rigid syntax that requires well-formed markup. However, in practice, HTML5 has largely replaced XHTML as the preferred markup language for the web.
 
+Q-20.What are logical and physical tags in HTML? 
+Ans-In HTML, tags are used to define the structure and content of a webpage. There are two types of tags: logical tags and physical tags.
+
+Logical tags are used to define the meaning or purpose of content on a webpage, such as headers, paragraphs, lists, and tables. Logical tags are not concerned with the appearance of content, but rather with its function and meaning. For example, the <h1> tag defines a heading and the <p> tag defines a paragraph.
+
+Physical tags, on the other hand, are used to define the appearance or style of content on a webpage, such as font size, color, and alignment. Physical tags are concerned with the visual representation of content. For example, the <font> tag can be used to specify the font size, color, and typeface of text.
+
+However, it is important to note that physical tags are deprecated in modern HTML and should be avoided. Instead, Cascading Style Sheets (CSS) should be used to define the visual style of content on a webpage. CSS provides a more flexible and efficient way to control the appearance of content, while keeping the logical structure of the webpage separate from its presentation.
